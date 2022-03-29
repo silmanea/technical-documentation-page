@@ -1,0 +1,56 @@
+:root {
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  body {
+    margin-left: 320px;
+    color: #6f1a07;
+  }
+  
+  #nav-description {
+    font-size: 18px;
+    color: #f7f3e3;
+    padding: 0 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .header-title {
+    font-size: 24px;
+  }
+  .reference-text {
+    text-align: center;
+    color: #f7f3e3;
+  }
+  #navbar {
+    position: fixed;
+    height: 100%;
+    min-width: 300px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: #a8763e;
+    padding: 30px 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #f7f3e3;
+  }
+  
+  .nav-link:hover {
+    color: #2b2118;
+    background-color: #f7f3e3;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  @media only screen (max-width: 800px) {
+    .header-title{
+      font-size: 18px;
+    }
+  }
+  /* For mobile phones: */
+  
